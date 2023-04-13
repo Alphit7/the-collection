@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&family=Noto+Serif&display=swap');
 $screen-sm-min: 375px;
-$screen-lg-min: 1440px;
+$screen-lg-min: 1200px;
 @mixin sm {
   @media (min-width: #{$screen-sm-min}) {
     @content;
@@ -26,9 +26,29 @@ body {
     display: inline;
     background-color: #E5E4E2;
     .card{
+        @include sm{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    @include lg{
+        display: grid;
+
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: 
+        "a b c"
+        "a b c"
+        "a b c"
+        "a d c";
+        gap: 10px;
+        #Tekken3{
+            grid-area: d;
+        }
+        .game {
+            margin: 10px;
+        }
+    }
     }
 .game{
     width: 375px;

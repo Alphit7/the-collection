@@ -15,10 +15,27 @@ body {
   display: inline;
   background-color: #E5E4E2;
 }
-body .card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+@media (min-width: 375px) {
+  body .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  body .card {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "a b c" "a b c" "a b c" "a d c";
+    gap: 10px;
+  }
+  body .card #Tekken3 {
+    grid-area: d;
+  }
+  body .card .game {
+    margin: 10px;
+  }
 }
 body .game {
   width: 375px;

@@ -81,7 +81,7 @@ const collection = [
     image: "/the-collection/Assets/FF9.jpg",
   },
   {
-    name: "Tekken 3",
+    name: "Tekken3",
     devs: "Namco",
     editors: ["Namco", "Sony Interactive Entertainment Europe"],
     genre: "VS fighter",
@@ -97,6 +97,7 @@ collection.forEach((element) => {
   let div = document.createElement("div");
   div.style.backgroundColor = "#2E8B57";
   div.setAttribute("class", "game");
+  div.setAttribute("id", collection[i].name);
   document.body.appendChild(div);
   let img = document.createElement("img");
   img.setAttribute("src", collection[i].image);
