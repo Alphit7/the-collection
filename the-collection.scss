@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&family=Noto+Serif&display=swap');
+$screen-sm-min: 375px;
+$screen-lg-min: 1440px;
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+.Personnal{
+    text-align: center;
+     h1{
+        font-size: 20px;
+     }
+    img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+}
+body {
+    display: inline;
+    background-color: #E5E4E2;
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+.game{
+    width: 375px;
+    height: 530px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+img{
+    width: 375px;
+    height: 375px;
+    border-bottom:1px solid black;
+}
+li{
+    position: relative;
+    right: 10px;
+}
+h2{
+    position: relative;
+    left: 5px;
+    font-size: 18px;
+}
+span{
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    left: 5px;
+}
+}
+}
