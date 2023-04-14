@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow&family=DynaPuff&family=Fraunces&family=Noto+Serif&display=swap");
 .Personnal {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .Personnal h1 {
-  font-size: 20px;
+  font-size: 40px;
+  color: #2E8B57;
+  text-transform: uppercase;
+}
+.Personnal p {
+  font-size: 30px;
+  color: #2E8B57;
+  font-family: "Anton";
 }
 .Personnal img {
   border-radius: 50%;
@@ -32,8 +44,9 @@ body input {
   border-color: red;
 }
 body .game {
+  font-family: "Anton";
   width: 375px;
-  height: 530px;
+  height: 560px;
   margin-bottom: 5px;
   margin-top: 5px;
   border: 1px solid black;
@@ -56,11 +69,13 @@ body .game img {
 body .game li {
   position: relative;
   right: 10px;
+  font-weight: 300;
 }
 body .game h2 {
   position: relative;
   left: 5px;
   font-size: 18px;
+  font-weight: 550;
 }
 body .game span {
   position: relative;

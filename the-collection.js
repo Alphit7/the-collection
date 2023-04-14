@@ -103,7 +103,7 @@ document.body.appendChild(card);
 let i = 0;
 collection.forEach((element) => {
   let div = document.createElement("div");
-  div.style.backgroundColor = "#2E8B57";
+  div.style.backgroundColor = "white";
   div.setAttribute("class", "game");
   div.setAttribute("id","game"+i);
   document.body.appendChild(div);
