@@ -50,10 +50,14 @@ body .game {
   margin-bottom: 5px;
   margin-top: 5px;
   border: 1px solid black;
+  transition: transform 0.2s;
 }
 body .game input {
   position: absolute;
   display: none;
+}
+body .game:hover {
+  transform: scale(1.2);
 }
 body .game:hover span {
   background-color: red;

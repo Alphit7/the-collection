@@ -60,11 +60,13 @@ body {
     margin-bottom: 5px;
     margin-top: 5px;
     border: 1px solid black;
+    transition: transform .2s;
     input {
       position: absolute;
       display: none;
     }
     &:hover {
+      transform: scale(1.2);
         span{
             background-color: red;
         }

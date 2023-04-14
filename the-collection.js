@@ -6,6 +6,7 @@ const collection = [
     genre: ["RPG", "Football"],
     support: "Nintendo DS",
     image: "/the-collection/Assets/IE2.jpeg",
+    sound: "/the-collection/Assets/IE.mp3",
   },
   {
     name: "Yakuza 0",
@@ -14,6 +15,7 @@ const collection = [
     genre: ["RPG", "Action-Aventure"],
     support: ["PS4", "PS3", "Xbox One", "PC"],
     image: "/the-collection/Assets/yakuza-zero.jpg",
+    sound: "/the-collection/Assets/Dame da ne WW2.mp3",
   },
   {
     name: "Persona 4 The Golden",
@@ -22,6 +24,7 @@ const collection = [
     genre: "JRPG",
     support: ["Playstation Vita", "PC", "Switch", "PS4", "PS5", "Xbox One"],
     image: "/the-collection/Assets/P4G.webp",
+    sound:"/the-collection/Assets/P4.mp3",
   },
   {
     name: "TES5: Skyrim",
@@ -39,6 +42,7 @@ const collection = [
       "PC",
     ],
     image: "/the-collection/Assets/The_Elder_Scrolls_5_Skyrim_Logo.png",
+    sound:"/the-collection/Assets/Bob.mp3",
   },
   {
     name: "CSGO",
@@ -47,6 +51,7 @@ const collection = [
     genre: "FPS",
     support: ["PC", "PS3", "Xbox 360"],
     image: "/the-collection/Assets/CSGO.jpeg",
+    sound:"/the-collection/Assets/Bomb.mp3",
   },
   {
     name: "Kingdom Hearts 2",
@@ -55,6 +60,7 @@ const collection = [
     genre: "Action-RPG",
     support: "PS2",
     image: "/the-collection/Assets/Kingdom_Hearts_II_(PS2).jpg",
+    sound:"/the-collection/Assets/KH2.mp3",
   },
   {
     name: "Oddworld: l'oddyssée d'Abe",
@@ -63,6 +69,7 @@ const collection = [
     genre: "Plateformer",
     support: "PS1",
     image: "/the-collection/Assets/oddworld-odyssee-e17406.jpg",
+    sound:"/the-collection/Assets/Oddworld.mp3",
   },
   {
     name: "Dragon Quest VIII",
@@ -71,6 +78,7 @@ const collection = [
     genre: "JRPG",
     support: ["PS2", "3DS"],
     image: "/the-collection/Assets/DQ8.jpeg",
+    sound:"/the-collection/Assets/DQ8.mp3",
   },
   {
     name: "Final Fantasy IX",
@@ -79,6 +87,7 @@ const collection = [
     genre: "JRPG",
     support: "PS1",
     image: "/the-collection/Assets/FF9.jpg",
+    sound:"/the-collection/Assets/FF9.mp3",
   },
   {
     name: "Tekken 3",
@@ -87,6 +96,7 @@ const collection = [
     genre: "VS fighter",
     support: "PS1",
     image: "/the-collection/Assets/Tekken3.jpeg",
+    sound:"/the-collection/Assets/Tekken.mp3",
   },
   {
     name: "Elden Ring",
@@ -95,6 +105,7 @@ const collection = [
     genre: "Action-RPG",
     support: ["PS5","PS4","Xbox One","Xbox series","PC"],
     image: "/the-collection/Assets/Elden.jpg",
+    sound:"/the-collection/Assets/Elden.mp3",
   },
 ];
 let card = document.createElement('div');
@@ -143,6 +154,12 @@ collection.forEach((element) => {
   li3.appendChild(newSupport);
   div.appendChild(ul);
   card.appendChild(div);
+  let audio = document.createElement("audio");
+  div.appendChild(audio);
+  let sound = document.createElement("source");
+  sound.setAttribute("src", collection[i].sound);
+  audio.appendChild(sound);
+  const game = document.getElementById('game'+i);
+  game.addEventListener('click', () => { audio.play()});
   i++;
 });
-console.log(collection);
