@@ -81,12 +81,20 @@ const collection = [
     image: "/the-collection/Assets/FF9.jpg",
   },
   {
-    name: "Tekken3",
+    name: "Tekken 3",
     devs: "Namco",
     editors: ["Namco", "Sony Interactive Entertainment Europe"],
     genre: "VS fighter",
     support: "PS1",
     image: "/the-collection/Assets/Tekken3.jpeg",
+  },
+  {
+    name: "Elden Ring",
+    devs: "FromSoftware",
+    editors: "Bandai Namco",
+    genre: "Action-RPG",
+    support: ["PS5","PS4","Xbox One","Xbox series","PC"],
+    image: "/the-collection/Assets/Elden.jpg",
   },
 ];
 let card = document.createElement('div');
@@ -97,14 +105,20 @@ collection.forEach((element) => {
   let div = document.createElement("div");
   div.style.backgroundColor = "#2E8B57";
   div.setAttribute("class", "game");
-  div.setAttribute("id", collection[i].name);
+  div.setAttribute("id","game"+i);
   document.body.appendChild(div);
+  const button = document.createElement("input");
+  button.setAttribute("type","button");
+  button.setAttribute("value","X");
+  button.setAttribute("id","deleteBtn");
+  div.appendChild(button);
+  button.addEventListener("click", () => {
+    div.remove()});
   let img = document.createElement("img");
   img.setAttribute("src", collection[i].image);
   div.appendChild(img);
   let span = document.createElement("span");
   let newGenre = document.createTextNode(collection[i].genre);
-  span.style.backgroundColor = "#1434A4";
   span.style.color = "white";
   span.style.borderRadius = "20px";
   span.appendChild(newGenre);
@@ -131,3 +145,4 @@ collection.forEach((element) => {
   card.appendChild(div);
   i++;
 });
+console.log(collection);

@@ -13,7 +13,7 @@
 
 body {
   display: inline;
-  background-color: #E5E4E2;
+  background-color: #e5e4e2;
 }
 @media (min-width: 375px) {
   body .card {
@@ -23,19 +23,13 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  body .card {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-areas: "a b c" "a b c" "a b c" "a d c";
-    gap: 10px;
-  }
-  body .card #Tekken3 {
-    grid-area: d;
-  }
   body .card .game {
     margin: 10px;
   }
+}
+body input {
+  border-radius: 50%;
+  border-color: red;
 }
 body .game {
   width: 375px;
@@ -43,6 +37,16 @@ body .game {
   margin-bottom: 5px;
   margin-top: 5px;
   border: 1px solid black;
+}
+body .game input {
+  position: absolute;
+  display: none;
+}
+body .game:hover span {
+  background-color: red;
+}
+body .game:hover input {
+  display: block;
 }
 body .game img {
   width: 375px;
@@ -63,4 +67,5 @@ body .game span {
   padding-left: 5px;
   padding-right: 5px;
   left: 5px;
+  background-color: #1434A4;
 }/*# sourceMappingURL=the-collection.css.map */
