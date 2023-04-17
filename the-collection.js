@@ -160,6 +160,8 @@ collection.forEach((element) => {
   sound.setAttribute("src", collection[i].sound);
   audio.appendChild(sound);
   const game = document.getElementById('game'+i);
-  game.addEventListener('click', () => { audio.play()});
+  game.addEventListener('click', () => { 
+    audio.pause();
+    audio.play()});
   i++;
 });
