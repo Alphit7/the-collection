@@ -1,0 +1,110 @@
+[
+    {
+      "name": "Inazuma eleven 2",
+      "devs": "Level5",
+      "editors": ["Level5", "Nintendo"],
+      "genre": ["RPG", "Football"],
+      "support": "Nintendo DS",
+      "image": "/Assets/IE2.jpeg",
+      "sound": "/Assets/IE.mp3"
+    },
+    {
+      "name": "Yakuza 0",
+      "devs": "Ryu ga Gotoku Studio",
+      "editors": "Sega",
+      "genre": ["RPG", "Action-Aventure"],
+      "support": ["PS4", "PS3", "Xbox One", "PC"],
+      "image": "/Assets/yakuza-zero.jpg",
+      "sound": "/Assets/Dame da ne WW2.mp3"
+    },
+    {
+      "name": "Persona 4 The Golden",
+      "devs": "Atlus",
+      "editors": ["Sega", "Atlus"],
+      "genre": "JRPG",
+      "support": ["Playstation Vita", "PC", "Switch", "PS4", "PS5", "Xbox One"],
+      "image": "/Assets/P4G.webp",
+      "sound":"/Assets/P4.mp3"
+    },
+    {
+      "name": "TES5: Skyrim",
+      "devs": "Bethesda Game Studios",
+      "editors": "Bethesda Softworks",
+      "genre": "Action-RPG",
+      "support": [
+        "Switch",
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series",
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "image": "/Assets/The_Elder_Scrolls_5_Skyrim_Logo.png",
+      "sound":"/Assets/Bob.mp3"
+    },
+    {
+      "name": "CSGO",
+      "devs": ["Valve", "Hidden Path Entertainment"],
+      "editors": "Valve",
+      "genre": "FPS",
+      "support": ["PC", "PS3", "Xbox 360"],
+      "image": "/Assets/CSGO.jpeg",
+      "sound":"/Assets/Bomb.mp3"
+    },
+    {
+      "name": "Kingdom Hearts 2",
+      "devs": "Square Enix",
+      "editors": "Sony Computer Entertainment",
+      "genre": "Action-RPG",
+      "support": "PS2",
+      "image": "/Assets/Kingdom_Hearts_II_(PS2).jpg",
+      "sound":"/Assets/KH2.mp3"
+    },
+    {
+      "name": "Oddworld: l'oddyssée d'Abe",
+      "devs": "Oddworld Inhabitants",
+      "editors": ["Oddworld Inhabitants", "GT Interactive Software"],
+      "genre": "Plateformer",
+      "support": "PS1",
+      "image": "/Assets/oddworld-odyssee-e17406.jpg",
+      "sound":"/Assets/Oddworld.mp3"
+    },
+    {
+      "name": "Dragon Quest VIII",
+      "devs": ["Square Enix", "Level5"],
+      "editors": ["Nintendo", "Square Enix"],
+      "genre": "JRPG",
+      "support": ["PS2", "3DS"],
+      "image": "/Assets/DQ8.jpeg",
+      "sound":"/Assets/DQ8.mp3"
+    },
+    {
+      "name": "Final Fantasy IX",
+      "devs": "Square",
+      "editors": "Square",
+      "genre": "JRPG",
+      "support": "PS1",
+      "image": "/Assets/FF9.jpg",
+      "sound":"/Assets/FF9.mp3"
+    },
+    {
+      "name": "Tekken 3",
+      "devs": "Namco",
+      "editors": ["Namco", "Sony Interactive Entertainment Europe"],
+      "genre": "VS fighter",
+      "support": "PS1",
+      "image": "/Assets/Tekken3.jpeg",
+      "sound":"/Assets/Tekken.mp3"
+    },
+    {
+      "name": "Elden Ring",
+      "devs": "FromSoftware",
+      "editors": "Bandai Namco",
+      "genre": "Action-RPG",
+      "support": ["PS5","PS4","Xbox One","Xbox series","PC"],
+      "image": "/Assets/Elden.jpg",
+      "sound":"/Assets/Elden.mp3"
+    }
+  ]
