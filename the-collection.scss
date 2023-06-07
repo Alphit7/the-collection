@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&family=Noto+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow&family=DynaPuff&family=Fraunces&family=Noto+Serif&display=swap');
+$screen-sm-min: 375px;
+$screen-lg-min: 1200px;
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+.Personnal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  h1 {
+    font-size: 40px;
+    color: #2E8B57;
+    text-transform: uppercase;
+  }
+  p{
+    font-size: 30px;
+    color: #2E8B57 ;
+    font-family: 'Anton';
+  }
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+}
+body {
+  display: inline;
+  background-color: #e5e4e2;
+  .card {
+    @include sm {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    @include lg {
+      .game {
+        margin: 10px;
+      }
+    }
+  }
+  input {
+    border-radius: 50%;
+    border-color: red;
+  }
+  .game {
+    font-family: 'Anton';
+    width: 340px;
+    height: 560px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    transition: transform .2s;
+    input {
+      position: absolute;
+      display: none;
+    }
+    &:hover {
+      transform: scale(1.2);
+        span{
+            background-color: red;
+        }
+      input {
+        display: block;
+      }
+    }
+    img {
+      width: 340px;
+      height: 340px;
+      border-bottom: 1px solid black;
+    }
+    li {
+      position: relative;
+      right: 10px;
+      font-weight: 300;
+    }
+    h2 {
+      position: relative;
+      left: 5px;
+      font-size: 18px;
+        font-weight: 550;
+    }
+    span {
+      position: relative;
+      padding-left: 5px;
+      padding-right: 5px;
+      left: 5px;
+      background-color: #1434A4;
+    }
+  }
+}
