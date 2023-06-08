@@ -5,8 +5,8 @@
       "editors": ["Level5", "Nintendo"],
       "genre": ["RPG", "Football"],
       "support": "Nintendo DS",
-      "image": "/Assets/IE2.jpeg",
-      "sound": "/Assets/IE.mp3"
+      "image": "./Assets/IE2.jpeg",
+      "sound": "./Assets/IE.mp3"
     },
     {
       "name": "Yakuza 0",
@@ -14,8 +14,8 @@
       "editors": "Sega",
       "genre": ["RPG", "Action-Aventure"],
       "support": ["PS4", "PS3", "Xbox One", "PC"],
-      "image": "/Assets/yakuza-zero.jpg",
-      "sound": "/Assets/Dame da ne WW2.mp3"
+      "image": "./Assets/yakuza-zero.jpg",
+      "sound": "./Assets/Dame da ne WW2.mp3"
     },
     {
       "name": "Persona 4 The Golden",
@@ -23,8 +23,8 @@
       "editors": ["Sega", "Atlus"],
       "genre": "JRPG",
       "support": ["Playstation Vita", "PC", "Switch", "PS4", "PS5", "Xbox One"],
-      "image": "/Assets/P4G.webp",
-      "sound":"/Assets/P4.mp3"
+      "image": "./Assets/P4G.webp",
+      "sound":"./Assets/P4.mp3"
     },
     {
       "name": "TES5: Skyrim",
@@ -41,8 +41,8 @@
         "Xbox 360",
         "PC"
       ],
-      "image": "/Assets/The_Elder_Scrolls_5_Skyrim_Logo.png",
-      "sound":"/Assets/Bob.mp3"
+      "image": "./Assets/The_Elder_Scrolls_5_Skyrim_Logo.png",
+      "sound":"./Assets/Bob.mp3"
     },
     {
       "name": "CSGO",
@@ -50,8 +50,8 @@
       "editors": "Valve",
       "genre": "FPS",
       "support": ["PC", "PS3", "Xbox 360"],
-      "image": "/Assets/CSGO.jpeg",
-      "sound":"/Assets/Bomb.mp3"
+      "image": "./Assets/CSGO.jpeg",
+      "sound":"./Assets/Bomb.mp3"
     },
     {
       "name": "Kingdom Hearts 2",
@@ -59,8 +59,8 @@
       "editors": "Sony Computer Entertainment",
       "genre": "Action-RPG",
       "support": "PS2",
-      "image": "/Assets/Kingdom_Hearts_II_(PS2).jpg",
-      "sound":"/Assets/KH2.mp3"
+      "image": "./Assets/Kingdom_Hearts_II_(PS2).jpg",
+      "sound":"./Assets/KH2.mp3"
     },
     {
       "name": "Oddworld: l'oddyssée d'Abe",
@@ -68,8 +68,8 @@
       "editors": ["Oddworld Inhabitants", "GT Interactive Software"],
       "genre": "Plateformer",
       "support": "PS1",
-      "image": "/Assets/oddworld-odyssee-e17406.jpg",
-      "sound":"/Assets/Oddworld.mp3"
+      "image": "./Assets/oddworld-odyssee-e17406.jpg",
+      "sound":"./Assets/Oddworld.mp3"
     },
     {
       "name": "Dragon Quest VIII",
@@ -77,8 +77,8 @@
       "editors": ["Nintendo", "Square Enix"],
       "genre": "JRPG",
       "support": ["PS2", "3DS"],
-      "image": "/Assets/DQ8.jpeg",
-      "sound":"/Assets/DQ8.mp3"
+      "image": "./Assets/DQ8.jpeg",
+      "sound":"./Assets/DQ8.mp3"
     },
     {
       "name": "Final Fantasy IX",
@@ -86,8 +86,8 @@
       "editors": "Square",
       "genre": "JRPG",
       "support": "PS1",
-      "image": "/Assets/FF9.jpg",
-      "sound":"/Assets/FF9.mp3"
+      "image": "./Assets/FF9.jpg",
+      "sound":"./Assets/FF9.mp3"
     },
     {
       "name": "Tekken 3",
@@ -95,8 +95,8 @@
       "editors": ["Namco", "Sony Interactive Entertainment Europe"],
       "genre": "VS fighter",
       "support": "PS1",
-      "image": "/Assets/Tekken3.jpeg",
-      "sound":"/Assets/Tekken.mp3"
+      "image": "./Assets/Tekken3.jpeg",
+      "sound":"./Assets/Tekken.mp3"
     },
     {
       "name": "Elden Ring",
@@ -104,7 +104,7 @@
       "editors": "Bandai Namco",
       "genre": "Action-RPG",
       "support": ["PS5","PS4","Xbox One","Xbox series","PC"],
-      "image": "/Assets/Elden.jpg",
-      "sound":"/Assets/Elden.mp3"
+      "image": "./Assets/Elden.jpg",
+      "sound":"./Assets/Elden.mp3"
     }
   ]
